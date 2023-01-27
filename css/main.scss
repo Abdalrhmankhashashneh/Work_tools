@@ -1,41 +1,89 @@
+// Main color variables
 :root {
-    --cr1:#004ECF;
-    --cr2: #e9fffd;
-    --cr3: #FFFBF5;
-    --cr4: #567189;
-  }
-  
-  /* custom fonts */
-  /* text fonts */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  /* background color */
-  .bg_body_color {
-    background-color: var(--cr3) !important;
-  }
-  
-  .bg_logo_color {
-    background-color: var(--cr1) !important;
-  }
-  
-  /* text color */
-  .bg_light_text_color {
-    color: var(--cr3) !important;
-  }
-  
-  .bg_light_g_text_color {
-    color: var(--cr2) !important;
-  }
-  
-  body {
-    background-color: var(--cr3);
-    font-family: "Poppins", sans-serif;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }/*# sourceMappingURL=main.css.map */
+  --cr1:#004ECF;  
+  --cr2: #e9fffd;
+  --cr3: #FFFBF5;
+  --cr4: #567189;
+}  
+
+
+//public css
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+background-color: var(--cr3);
+font-family: "Poppins", sans-serif;
+}
+
+
+
+
+// custom fonts 
+@font-face {
+font-family: "quicksand";     // The font name   
+src: url("../fonts/static/Quicksand-Bold.ttf"); // The font file path 
+}  
+
+
+
+
+
+
+// text fonts 
+h1, h2, h3, h4, h5, h6 {
+font-family: "quicksand", sans-serif !important;   
+}  
+
+a , p, span, li, ul, ol, label, input, textarea, button, select, option, small, strong, b, i, em, u {
+font-family: "Poppins", sans-serif !important;  
+}  
+// text fonts end 
+
+
+
+// Custom Colors
+
+// custom background color 
+.bg_body_color {
+background-color: var(--cr3) !important;  
+}  
+
+.bg_logo_color {
+background-color: var(--cr1) !important;  
+}  
+
+// text color 
+.bg_light_text_color {
+color: var(--cr3) !important;  
+}  
+
+.bg_light_g_text_color {
+color: var(--cr2) !important;  
+}  
+
+// hover background color
+.bg_light_hover_color {
+background-color: var(--cr2) !important;  
+}  
+.bg_dark_hover_color {
+background-color: var(--cr4) !important;  
+}  
+
+// hover text color
+.bg_light_hover_text_color {
+color: var(--cr2) !important;  
+}  
+.bg_dark_hover_text_color {
+color: var(--cr4) !important;  
+}  
+
+// Custom Colors end
+
