@@ -1,0 +1,41 @@
+:root {
+  --cr1:#004ECF;
+  --cr2: #e9fffd;
+  --cr3: #FFFBF5;
+  --cr4: #567189;
+}
+
+/* custom fonts */
+/* text fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* background color */
+.bg_body_color {
+  background-color: var(--cr3) !important;
+}
+
+.bg_logo_color {
+  background-color: var(--cr1) !important;
+}
+
+/* text color */
+.bg_light_text_color {
+  color: var(--cr3) !important;
+}
+
+.bg_light_g_text_color {
+  color: var(--cr2) !important;
+}
+
+body {
+  background-color: var(--cr3);
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
