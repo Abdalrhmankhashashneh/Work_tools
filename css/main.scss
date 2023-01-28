@@ -70,20 +70,135 @@ color: var(--cr2) !important;
 }  
 
 // hover background color
-.bg_light_hover_color {
+.bg_light_hover_color:hover {
 background-color: var(--cr2) !important;  
 }  
-.bg_dark_hover_color {
+.bg_dark_hover_color:hover {
 background-color: var(--cr4) !important;  
 }  
 
 // hover text color
-.bg_light_hover_text_color {
+.bg_light_hover_text_color:hover {
 color: var(--cr2) !important;  
 }  
-.bg_dark_hover_text_color {
+.bg_dark_hover_text_color:hover {
 color: var(--cr4) !important;  
 }  
 
 // Custom Colors end
 
+//Custom Hieght and Width
+
+// custom height
+.h_100 {
+min-height: 100vh !important;  
+}
+.h_90 {
+min-height: 90vh !important;  
+}
+.h_80 {
+min-height: 80vh !important;  
+}
+.h_70 {
+min-height: 70vh !important;  
+}
+.h_60 {
+min-height: 60vh !important;  
+}
+.h_50 {
+min-height: 50vh !important;  
+}
+.h_40 {
+min-height: 40vh !important;  
+}
+.h_30 {
+min-height: 30vh !important;  
+}
+.h_20 {
+min-height: 20vh !important;  
+}
+.h_10 {
+min-height: 10vh !important;  
+}
+
+// custom width
+.w_100 {
+min-width: 100vw !important;  
+}
+.w_90 {
+min-width: 90vw !important;  
+}
+.w_80 {
+min-width: 80vw !important;  
+}
+.w_70 {
+min-width: 70vw !important;  
+}
+.w_60 {
+min-width: 60vw !important;  
+}
+.w_50 {
+min-width: 50vw !important;  
+}
+.w_40 {
+min-width: 40vw !important;  
+}
+.w_30 {
+min-width: 30vw !important;  
+}
+.w_20 {
+min-width: 20vw !important;  
+}
+.w_10 {
+min-width: 10vw !important;  
+}
+
+//Custom Hieght and Width end
+
+//Custom border radius
+
+.rad_0 {
+border-radius: 0px !important;  
+}
+
+.rad_5 {
+border-radius: 5px !important;  
+}
+
+.rad_10 {
+border-radius: 10px !important;  
+}
+
+.rad_15 {
+border-radius: 15px !important;  
+}
+
+.rad_20 {
+border-radius: 20px !important;  
+}
+
+.rad_25 {
+border-radius: 25px !important;  
+}
+
+.rad_30 {
+border-radius: 30px !important;  
+}
+
+.rad_35 {
+border-radius: 35px !important;  
+}
+
+.rad_40 {
+border-radius: 40px !important;  
+}
+
+.rad_45 {
+border-radius: 45px !important;  
+}
+
+.rad_50 {
+border-radius: 50px !important;  
+}
+
+//Custom border radius end
